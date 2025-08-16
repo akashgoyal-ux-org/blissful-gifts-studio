@@ -101,7 +101,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">Location</div>
-                    <div className="text-foreground">Mumbai, India</div>
+                    <div className="text-foreground">Pune, India</div>
                   </div>
                 </div>
               </CardContent>
