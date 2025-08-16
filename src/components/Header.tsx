@@ -1,7 +1,14 @@
 import { Button } from "@/components/ui/button";
-import { Gift, Heart, Star } from "lucide-react";
+import { Gift } from "lucide-react";
 
 const Header = () => {
+  const scrollToContact = () => {
+    const section = document.getElementById("contact");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="w-full bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -19,9 +26,13 @@ const Header = () => {
           <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
         </nav>
         
-        <Button variant="default" className="bg-black text-white hover:shadow-elegant transition-all duration-300">
-        Book Consultation
-      </Button>
+        <Button
+          variant="default"
+          onClick={scrollToContact}
+          className="bg-black text-white hover:shadow-elegant transition-all duration-300"
+        >
+          Book Consultation
+        </Button>
       </div>
     </header>
   );
