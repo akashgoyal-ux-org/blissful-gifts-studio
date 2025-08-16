@@ -3,6 +3,13 @@ import { ArrowRight, Heart, Sparkles } from "lucide-react";
 import heroImage from "@/assets/hero-gifts.jpg";
 
 const Hero = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -36,7 +43,8 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-primary to-accent hover:shadow-elegant transition-all duration-300 group"
+              onClick={() => scrollToSection('services')}
+              className="bg-black text-white hover:bg-gray-800 transition-all duration-300 group"
             >
               Explore Our Services
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -45,6 +53,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
+              onClick={() => scrollToSection('portfolio')}
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
               <Heart className="mr-2 w-4 h-4" />
