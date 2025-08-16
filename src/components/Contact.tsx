@@ -95,23 +95,22 @@ const Contact = () => {
                   </div>
                 </div>
 
-              <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                  <MessageCircle className="w-4 h-4 text-green-500" />
-                </div>
-                <div>
-                  <div className="text-sm text-muted-foreground">WhatsApp</div>
-                  <a 
-                    href="https://wa.me/message/3B6SL3FLPOIKO1" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
-                  >
-                    <MessageCircle className="w-5 h-5 text-green-500" /> 
-                    <span>Chat on WhatsApp</span>
-                  </a>
-                </div>
-              </div>
+             <div className="flex items-center space-x-3">
+  <div className="w-8 h-8 rounded-lg flex items-center justify-center bg-white">
+    <MessageCircle className="w-6 h-6" style={{ color: "#25D366" }} />
+  </div>
+  <div>
+    <div className="text-sm text-muted-foreground">WhatsApp</div>
+    <a 
+      href="https://wa.me/message/3B6SL3FLPOIKO1" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-foreground hover:text-primary transition-colors"
+    >
+      Chat on WhatsApp
+    </a>
+  </div>
+</div>
 
 
                 
