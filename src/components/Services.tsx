@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Gift, Package, Sparkles, Heart, Star, Crown } from "lucide-react";
+import { Gift, Package, Sparkles, Heart, Star, Crown, Gem } from "lucide-react";
 
 const services = [
   {
@@ -13,6 +13,12 @@ const services = [
     title: "Luxury Gift Boxes",
     description: "Curated gift boxes and hampers for corporate clients and special celebrations.",
     features: ["Branded packaging", "Custom inserts", "Bulk orders", "Corporate solutions"]
+  },
+  {
+    icon: Gem,
+    title: "Trousseau Packaging",
+    description: "Elegant trousseau packaging for Indian weddings with traditional and modern elements.",
+    features: ["Bridal trousseau", "Traditional themes", "Luxury presentation", "Custom designs"]
   },
   {
     icon: Crown,

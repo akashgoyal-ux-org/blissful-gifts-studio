@@ -2,6 +2,8 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import giftCollection from "@/assets/gift-collection.jpg";
 import corporateGifts from "@/assets/corporate-gifts.jpg";
+import trousseauHamper from "@/assets/trousseau-hamper.jpg";
+import corporateHampers from "@/assets/corporate-hampers.jpg";
 
 const portfolioItems = [
   {
@@ -11,7 +13,13 @@ const portfolioItems = [
     description: "A vibrant collection of birthday gifts wrapped in coordinated themes with personalized touches."
   },
   {
-    image: corporateGifts,
+    image: trousseauHamper,
+    title: "Bridal Trousseau Collection",
+    category: "Trousseau",
+    description: "Luxurious trousseau packaging with traditional Indian elements and modern elegance for brides."
+  },
+  {
+    image: corporateHampers,
     title: "Corporate Holiday Packages",
     category: "Corporate",
     description: "Elegant corporate gifts with custom branding and premium packaging for end-of-year appreciation."
@@ -24,9 +32,9 @@ const portfolioItems = [
   },
   {
     image: corporateGifts,
-    title: "Anniversary Surprise Box",
-    category: "Romantic",
-    description: "Multi-layered romantic presentation with rose gold accents and meaningful keepsakes."
+    title: "Festive Gift Hampers",
+    category: "Festive",
+    description: "Beautiful festive hampers celebrating Indian festivals with traditional sweets and modern touches."
   },
   {
     image: giftCollection,

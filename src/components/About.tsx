@@ -23,14 +23,20 @@ const About = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              <span className="font-semibold text-primary">HAMPERS, GIFTING & TROUSSEAU</span><br/>
+              Wedding ▪️ Corporate ▪️ Festive ▪️ Personal<br/>
+              <span className="font-medium">Delivering pan India</span>
+            </p>
+            
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
               At Enfold Bliss, we believe that the presentation of a gift is just as important as the gift itself. 
               Our passion lies in transforming ordinary packages into extraordinary experiences that create 
               lasting memories and express heartfelt emotions.
             </p>
             
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Founded with a vision to bring joy and elegance to every celebration, we specialize in artisan 
-              gift wrapping, custom packaging solutions, and creating magical moments that unfold with each 
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              Founded by <span className="font-medium text-primary">@sakshi_arorakundra</span>, we specialize in artisan 
+              gift wrapping, custom packaging solutions, trousseau packaging, and creating magical moments that unfold with each 
               carefully crafted detail.
             </p>
             
