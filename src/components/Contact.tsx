@@ -119,9 +119,7 @@ const Contact = () => {
     >
       <MessageCircle
         className="w-5 h-5 text-[#25D366]"
-      />
-      <div className="w-5 h-5 text-pink-500" />
-      
+      />      
       <span>+91 98765 43210</span>
 
     </a>
