@@ -104,21 +104,24 @@ const Contact = () => {
   </div>
 </div>
 
-
 <div className="flex items-center space-x-3">
   <div>
     <div className="text-sm text-muted-foreground">WhatsApp</div>
-    <a 
-      href="https://wa.me/message/3B6SL3FLPOIKO1" 
-      target="_blank" 
+    <a
+      href="https://wa.me/message/3B6SL3FLPOIKO1"
+      target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
+      className="inline-flex items-center gap-2 text-foreground hover:text-primary leading-none"
     >
-      <span>+91 98765 43210</span>
-      <MessageCircle className="w-5 h-5" style={{ color: "#25D366" }} />
+      <span className="leading-none">+91 98765 43210</span>
+      <MessageCircle
+        className="w-5 h-5 shrink-0 -mt-0.5"  // tweak: try -mt-px or -mt-1 if needed
+        style={{ color: "#25D366" }}
+      />
     </a>
   </div>
 </div>
+
 
 
 
