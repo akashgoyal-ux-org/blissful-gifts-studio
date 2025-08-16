@@ -86,7 +86,7 @@ const Contact = () => {
                   </div>
                 </div>
                 
-               <div className="flex items-center space-x-3">
+            <div className="flex items-center space-x-3">
   <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
     <Instagram className="w-4 h-4 text-primary-foreground" />
   </div>
@@ -96,12 +96,14 @@ const Contact = () => {
       href="https://instagram.com/enfoldblissgifts" 
       target="_blank" 
       rel="noopener noreferrer"
-      className="text-foreground hover:text-primary transition-colors"
+      className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
     >
-      @enfoldblissgifts
+      <Instagram className="w-5 h-5 text-pink-500" />
+      <span>@enfoldblissgifts</span>
     </a>
   </div>
 </div>
+
 
 
              <div className="flex items-center space-x-3">
