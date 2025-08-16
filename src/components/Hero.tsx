@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Enfold Every Moment
+            Enfold Every
           <span className="block bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
             Moment in Bliss
           </span>
