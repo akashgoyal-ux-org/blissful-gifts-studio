@@ -104,6 +104,28 @@ const Contact = () => {
   </div>
 </div>
 
+            <div className="flex items-center space-x-3">
+  <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
+    <div className="w-4 h-4 text-primary-foreground" />
+  </div>
+  <div>
+    <div className="text-sm text-muted-foreground">WhatsApp</div>
+    <a 
+      href="https://wa.me/message/3B6SL3FLPOIKO1" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
+    >
+      <div className="w-5 h-5 text-pink-500" />
+      <span>+91 98765 43210</span>
+       <MessageCircle
+        className="w-5 h-5 text-[#25D366]"
+      />
+    </a>
+  </div>
+</div>
+
+
 <div className="flex items-center space-x-3">
   <div>
     <div className="text-sm text-muted-foreground">WhatsApp</div>
