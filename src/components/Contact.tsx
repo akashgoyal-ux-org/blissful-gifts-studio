@@ -111,17 +111,15 @@ const Contact = () => {
       href="https://wa.me/message/3B6SL3FLPOIKO1"
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-2 text-foreground hover:text-primary leading-none"
+      className="flex items-center gap-2 text-foreground hover:text-primary"
     >
-      <span className="leading-none">+91 98765 43210</span>
+      <span>+91 98765 43210</span>
       <MessageCircle
-        className="w-5 h-5 shrink-0 -mt-0.5"  // tweak: try -mt-px or -mt-1 if needed
-        style={{ color: "#25D366" }}
+        className="w-5 h-5 text-[#25D366]"
       />
     </a>
   </div>
 </div>
-
 
 
 
