@@ -19,9 +19,9 @@ const Header = () => {
           <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
         </nav>
         
-        <Button variant="default" className="bg-gradient-to-r from-primary to-accent hover:shadow-elegant transition-all duration-300">
-          Book Consultation
-        </Button>
+        <Button variant="default" className="bg-black text-white hover:shadow-elegant transition-all duration-300">
+        Book Consultation
+      </Button>
       </div>
     </header>
   );
