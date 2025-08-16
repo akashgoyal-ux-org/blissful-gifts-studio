@@ -30,9 +30,10 @@ const Hero = () => {
           
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
             Enfold Every Moment
-            <span className="block text-transparent bg-gradient-to-r from-primary to-accent bg-clip-text">
-              Moment in Bliss
-            </span>
+          <span className="block bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+            Moment in Bliss
+          </span>
+
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
