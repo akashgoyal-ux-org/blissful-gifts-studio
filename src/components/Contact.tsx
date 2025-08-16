@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, Instagram, Clock, MessageCircle } from "lucide-react";
 
+
 const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-background">
@@ -85,15 +86,23 @@ const Contact = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                    <Instagram className="w-4 h-4 text-primary-foreground" />
-                  </div>
-                  <div>
-                    <div className="text-sm text-muted-foreground">Instagram</div>
-                    <div className="text-foreground">@enfoldblissgifts</div>
-                  </div>
-                </div>
+               <div className="flex items-center space-x-3">
+  <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
+    <Instagram className="w-4 h-4 text-primary-foreground" />
+  </div>
+  <div>
+    <div className="text-sm text-muted-foreground">Instagram</div>
+    <a 
+      href="https://instagram.com/enfoldblissgifts" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-foreground hover:text-primary transition-colors"
+    >
+      @enfoldblissgifts
+    </a>
+  </div>
+</div>
+
 
              <div className="flex items-center space-x-3">
   <div className="w-8 h-8 rounded-lg flex items-center justify-center bg-white">
