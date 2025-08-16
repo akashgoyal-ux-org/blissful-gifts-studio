@@ -117,10 +117,10 @@ const Contact = () => {
       className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
     >
       <div className="w-5 h-5 text-pink-500" />
-      
-      <span>  <MessageCircle
+      <MessageCircle
         className="w-5 h-5 text-[#25D366]"
-      /> +91 98765 43210</span>
+      />
+      <span>   +91 98765 43210</span>
 
     </a>
   </div>
