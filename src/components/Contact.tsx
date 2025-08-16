@@ -98,7 +98,7 @@ const Contact = () => {
       rel="noopener noreferrer"
       className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
     >
-      <Instagram className="w-5 h-5 text-pink-500" />
+      {/* <Instagram className="w-5 h-5 text-pink-500" /> */}
       <span>@enfoldblissgifts</span>
     </a>
   </div>
@@ -117,9 +117,9 @@ const Contact = () => {
       rel="noopener noreferrer"
       className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
     >
-      <MessageCircle
+      {/* <MessageCircle
         className="w-5 h-5 text-[#25D366]"
-      />      
+      />       */}
       <span>+91 98765 43210</span>
 
     </a>
